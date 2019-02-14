@@ -5,6 +5,8 @@ const app = express();
 
 const port = 8000;
 
+// Where to connect when possible
+// probably use .env
 db.createConnection({
   host: '',
   user: '',
