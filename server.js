@@ -30,4 +30,3 @@ require('./app/routes')(app, {});
 app.listen(port, () => {
   console.log(`API is up @ port ${port}`);
 });
-
